@@ -28,5 +28,14 @@ def average(*numbers):
 # sum(c,d)
 # isGreater(c,d)
 
-average(10,20, 30)
+# average(10,20, 30)
+
+def average1(*numbers):
+    sum =0 
+    for i in numbers:
+        sum += i
+    return sum/len(numbers)
+    
+printingTheValues= average1(10,20,30)
+print(printingTheValues)
 
